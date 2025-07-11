@@ -1,7 +1,7 @@
 # Interview-Question-Generator
 A smart web application that generates customized interview questions based on **role**, **experience**, **skills**, and **difficulty level** using AI. Ideal for candidates, HRs, and mentors preparing for interviews.
 
----
+Live Demo-https://scientist-spec.github.io/Interview-Question-Generator/
 
 ## Features
 
