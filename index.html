@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Interview Question Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+      <div id="particles-js"></div>
+
+  <h1>Interview Question Generator</h1>
+
+  <form id="question-form">
+    <label for="role">Select Role:</label>
+    <select id="role" required>
+      <option value="">--Select--</option>
+      <option value="Frontend Developer">Frontend Developer</option>
+      <option value="Backend Developer">Backend Developer</option>
+      <option value="Full Stack Developer">Full Stack Developer</option>
+      <option value="Data Analyst">Data Analyst</option>
+      <option value="ML Engineer">ML Engineer</option>
+      <option value="SDE Intern">SDE Intern</option>
+    </select><br><br>
+
+    <label for="experience">Experience Level:</label>
+    <select id="experience" required>
+      <option value="">--Select--</option>
+      <option value="Fresher">Fresher</option>
+      <option value="1-2 years">1-2 years</option>
+      <option value="3-5 years">3-5 years</option>
+      <option value="Senior (5+ years)">Senior (5+ years)</option>
+    </select><br><br>
+
+    <label for="skills">Key Skills (comma-separated):</label>
+    <input type="text" id="skills" placeholder="e.g., JavaScript, Python, SQL" required /><br><br>
+
+    <label for="difficulty">Difficulty Level:</label>
+    <select id="difficulty">
+      <option value="Easy">Easy</option>
+      <option value="Medium">Medium</option>
+      <option value="Hard">Hard</option>
+    </select><br><br>
+
+    <label for="roundType">Interview Round Type:</label>
+    <select id="roundType">
+      <option value="Technical">Technical (Coding / DSA)</option>
+      <option value="HR">HR Round</option>
+      <option value="Behavioral">Behavioral Round</option>
+      <option value="Mixed">Mixed (All)</option>
+    </select><br><br>
+
+    <button type="submit">Generate Questions</button>
+  </form>
+
+  <div id="output"></div>
+
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

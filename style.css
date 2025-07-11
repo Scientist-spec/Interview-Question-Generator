@@ -1,0 +1,89 @@
+/* Particles background */
+#particles-js {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+
+/* Dark mode body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0f172a; /* deep navy blue */
+  color: #e2e8f0; /* light text */
+  margin: 0;
+  padding: 30px;
+  text-align: center;
+}
+
+/* Headings */
+h1 {
+  color: #f8fafc;
+}
+
+/* Form container */
+form {
+  background: rgba(255, 255, 255, 0.05); /* subtle glass effect */
+  backdrop-filter: blur(10px);
+  color: white;
+  display: inline-block;
+  padding: 30px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.1);
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.2);
+  max-width: 500px;
+  width: 100%;
+}
+
+/* Inputs and selects */
+label {
+  display: block;
+  margin: 10px 0 5px;
+  text-align: left;
+}
+
+select,
+input[type="text"],
+button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #475569;
+  background-color: #1e293b;
+  color: white;
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+/* Buttons */
+button {
+  background-color: #0ea5e9;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0284c7;
+}
+
+/* Output */
+#output {
+  background: rgba(255, 255, 255, 0.05);
+  color: #f8fafc;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 30px;
+  text-align: left;
+  white-space: pre-wrap;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.1);
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
